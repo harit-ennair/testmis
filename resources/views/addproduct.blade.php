@@ -13,7 +13,7 @@
 <input type="text" name="description" placeholder="description">
 <input type="numbey" name="pris" placeholder="prix">
 
-<button ></button>
+<button type="submit" name="submit" > add</button>
 </form>
     
 </body>
