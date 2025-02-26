@@ -15,11 +15,10 @@ class ProductController extends Controller
     {
         $product = product::select(['*'])->orderByDesc('pris')->get();
 
-        
-
 
         // SELECT * FROM products
         // ORDER BY pris DESC;
+
 
         return view('product');
     }
@@ -27,9 +26,10 @@ class ProductController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function addproduct()
     {
-        //
+        return view('addproduct');
+        
     }
 
     /**
